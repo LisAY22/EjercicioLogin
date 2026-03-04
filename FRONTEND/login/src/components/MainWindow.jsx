@@ -1,6 +1,6 @@
 import Home from './Home';
 import PrivateRoutes from '../utils/PrivateRoutes';
-import Login from './login';
+import Login from './Login';
 
 import {BrowserRouter, Route, Routes, useLocation} from 'react-router-dom';
 

@@ -104,9 +104,8 @@ CORS_ALLOWED_ORIGINS = [
 ACCOUNT_CONFIRM_PASSWORD_MISMATCH = False 
 
 # Otras configuraciones que te ahorrarán errores de registro:
-ACCOUNT_EMAIL_REQUIRED = False      # No obliga a pedir email
-ACCOUNT_USERNAME_REQUIRED = True       # Sí obliga a pedir username
 ACCOUNT_EMAIL_VERIFICATION = 'none' # No intenta enviar correos de verificación
+ACCOUNT_SIGNUP_FIELDS = ['username', 'password1']      # Campos requeridos para el registro
 
 
 # Password validation
